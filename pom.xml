@@ -9,7 +9,7 @@
 
     <properties>
         <jdk.version>1.8</jdk.version>
-        <jackson.version>2.9.0.pr4</jackson.version>
+        <jackson.version>2.9.9.2</jackson.version>
     </properties>
 
     <dependencies>
@@ -36,7 +36,7 @@
         <dependency>
             <groupId>org.jsonschema2pojo</groupId>
             <artifactId>jsonschema2pojo-core</artifactId>
-            <version>0.4.37</version>
+            <version>1.0.2</version>
         </dependency>
 
         <dependency>
@@ -78,7 +78,7 @@
                         <format>html</format>
                         <format>xml</format>
                     </formats>
-                    <check />
+                    <check/>
                 </configuration>
                 <dependencies>
                     <dependency>
