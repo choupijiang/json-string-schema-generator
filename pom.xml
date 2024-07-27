@@ -9,7 +9,7 @@
 
     <properties>
         <jdk.version>1.8</jdk.version>
-        <jackson.version>2.9.0.pr4</jackson.version>
+        <jackson.version>2.15.0</jackson.version>
     </properties>
 
     <dependencies>
@@ -78,7 +78,7 @@
                         <format>html</format>
                         <format>xml</format>
                     </formats>
-                    <check />
+                    <check/>
                 </configuration>
                 <dependencies>
                     <dependency>
